@@ -1,5 +1,6 @@
 # myvscodejson
 My visual studio code JSON configurations
+
 {
   "editor.fontSize": 18,
   "editor.lineHeight": 25,
