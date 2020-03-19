@@ -13,7 +13,6 @@ My visual studio code JSON configurations
   "liveshare.account": "",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 5,
-  "type.updateImportsOnFileMove.enabled": "always",
   "liveshare.increasedGuestLimit": false,
   "liveshare.codeLens": false,
   "git.confirmSync": false,
@@ -143,5 +142,24 @@ My visual studio code JSON configurations
   ],
   "workbench.colorTheme": "Nebula",
   "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "native"
+  "window.titleBarStyle": "native",
+  "files.autoSave": "off"
 }
+
+// Extensões
+
+Angular Schematics
+Angular Snippets
+Better Comments
+Backet Pair Colorizer 2
+Color Highlight
+CSS Peek
+EditorConfig
+Highlight Matching Tag
+Javascript ES6
+Live Sass Compiler
+Live Server
+Live Share
+Material Icon Theme
+Nebula Theme
+Peacock
