@@ -1,6 +1,3 @@
-# myvscodejson
-My visual studio code JSON configurations
-
 {
   "editor.fontSize": 18,
   "editor.lineHeight": 25,
@@ -26,11 +23,11 @@ My visual studio code JSON configurations
   "editor.autoIndent": "full",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
-  "editor.wordWrapColumn": 115,
+  "editor.wordWrapColumn": 100,
   "editor.wordWrap": "wordWrapColumn",
-  "editor.rulers": [
-    115
-  ],
+  // "editor.rulers": [
+  //   105
+  // ],
   "editor.formatOnSave": true,
   "[java]": {
     "editor.codeActionsOnSave": {
@@ -61,7 +58,7 @@ My visual studio code JSON configurations
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
-  "window.zoomLevel": -0.2,
+  "window.zoomLevel": 0.2,
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "java": "jsx"
@@ -84,82 +81,25 @@ My visual studio code JSON configurations
   "workbench.activityBar.visible": true,
   "peacock.favoriteColors": [
     {
-      "name": "Angular Red",
-      "value": "#b52e31"
-    },
-    {
-      "name": "Auth0 Orange",
-      "value": "#eb5424"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "C# Purple",
-      "value": "#68217A"
-    },
-    {
-      "name": "Gatsby Purple",
-      "value": "#639"
-    },
-    {
-      "name": "Go Cyan",
-      "value": "#5dc9e2"
-    },
-    {
-      "name": "Java Blue-Gray",
-      "value": "#557c9b"
-    },
-    {
-      "name": "Java Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#00b3e6"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    },
-    {
       "name": "Artur",
-      "value": "#55153e"
+      "value": "#42072c"
     }
   ],
-  "workbench.colorTheme": "Nebula",
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "native",
-  "files.autoSave": "off"
+  "files.autoSave": "off",
+  "workbench.colorCustomizations": {
+    "[Night Wolf [dark gray]]": {
+      "activityBar.activeBorder": "#f9f9f9",
+    },
+    "[Night Wolf [gray]]": {
+      "activityBar.activeBorder": "#f9f9f9",
+    },
+    "[Moonlight II Italic]": {
+      "activityBar.activeBorder": "#f9f9f9",
+      "activityBarBadge.background": "#f9f9f9",
+      "activityBarBadge.foreground": "#42072c"
+    },
+  },
+  "workbench.colorTheme": "Moonlight II Italic"
 }
-
-// Extensões
-
-Angular Schematics
-Angular Snippets
-Better Comments
-Backet Pair Colorizer 2
-Color Highlight
-CSS Peek
-EditorConfig
-Highlight Matching Tag
-Javascript ES6
-Live Sass Compiler
-Live Server
-Live Share
-Material Icon Theme
-Nebula Theme
-Peacock
