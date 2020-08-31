@@ -23,11 +23,11 @@
   "editor.autoIndent": "full",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
-  "editor.wordWrapColumn": 100,
+  "editor.wordWrapColumn": 96,
   "editor.wordWrap": "wordWrapColumn",
-  // "editor.rulers": [
-  //   105
-  // ],
+  "editor.rulers": [
+    96
+  ],
   "editor.formatOnSave": true,
   "[java]": {
     "editor.codeActionsOnSave": {
@@ -58,7 +58,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
-  "window.zoomLevel": 0.2,
+  "window.zoomLevel": 0.6,
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "java": "jsx"
@@ -98,8 +98,11 @@
     "[Moonlight II Italic]": {
       "activityBar.activeBorder": "#f9f9f9",
       "activityBarBadge.background": "#f9f9f9",
-      "activityBarBadge.foreground": "#42072c"
+      "activityBarBadge.foreground": "#42072c",
+      "editorLineNumber.activeForeground": "#d9d9d9",
     },
   },
-  "workbench.colorTheme": "Moonlight II Italic"
+  "workbench.colorTheme": "Moonlight II Italic",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
