@@ -1,8 +1,10 @@
 {
+  "editor.tabSize": 2,
   "editor.fontSize": 18,
-  "editor.lineHeight": 25,
-  "editor.fontFamily": "Fira Code Retina",
-  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 26,
+  // "editor.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.letterSpacing": 0.5,
   "editor.minimap.enabled": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
@@ -57,8 +59,7 @@
   "terminal.integrated.fontSize": 18,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0.6,
+  "window.zoomLevel": 0.5,
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "java": "jsx"
