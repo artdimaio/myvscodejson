@@ -4,7 +4,7 @@
   "editor.lineHeight": 26,
   // "editor.fontFamily": "Fira Code Retina",
   "editor.fontFamily": "JetBrains Mono",
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0.3,
   "editor.minimap.enabled": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
@@ -86,7 +86,7 @@
     },
     {
       "name": "DARK",
-      "value": "#010003"
+      "value": "#0f1018"
     }
   ],
   "window.menuBarVisibility": "toggle",
@@ -105,17 +105,19 @@
       "activityBarBadge.foreground": "#030307",
       "editorLineNumber.activeForeground": "#d9d9d9",
       "activityBar.inactiveForeground": "#bebebe",
-      "sideBar.background": "#0b011c",
-      "sideBarSectionHeader.background": "#0b011c",
-      "terminal.background": "#0b011c",
-      "panel.background": "#0b011c",
-      "tab.activeBackground": "#182030",
-      "tab.inactiveBackground": "#0b011c",
-      // "editor.background": "#11121f",
-      // "editor.background": "#100424",
-      "editor.background": "#100126",
-      "editorLineNumber.foreground": "#9d9d9f",
-      "editorGroupHeader.tabsBackground": "#0b011c"
+      "sideBar.background": "#161824",
+      "sideBarSectionHeader.background": "#161824",
+      "terminal.background": "#161824",
+      "panel.background": "#161824",
+      "tab.inactiveBackground": "#161824",
+      "editor.background": "#1e2032",
+      "tab.border": "#0a0b11",
+      "sideBar.border": "#0a0b11",
+      "panel.border": "#0a0b11",
+      "activityBar.border": "#0a0b11",
+      "sideBarSectionHeader.border": "#0a0b11",
+      "editorLineNumber.foreground": "#575f93",
+      "editorGroupHeader.tabsBackground": "#161824"
     },
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
