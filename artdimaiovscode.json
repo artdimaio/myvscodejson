@@ -9,7 +9,6 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
   "editor.tabCompletion": "on",
-  "liveshare.account": "",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 5,
   "liveshare.increasedGuestLimit": false,
@@ -57,7 +56,6 @@
   },
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 18,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 0.5,
   "extensions.ignoreRecommendations": true,
@@ -73,17 +71,22 @@
     "titleBar": "none"
   },
   "editor.parameterHints.enabled": false,
-  "type.updateImportsOnFileMove.enabled": "never",
   "terminal.integrated.shell.linux": "/bin/zsh",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "type.tsserver.log": "verbose",
-  "type.suggest.autoImports": false,
   "workbench.activityBar.visible": true,
   "peacock.favoriteColors": [
     {
       "name": "Artur",
       "value": "#42072c"
+    },
+    {
+      "name": "Artur 2",
+      "value": "#2b051d"
+    },
+    {
+      "name": "DARK",
+      "value": "#010003"
     }
   ],
   "window.menuBarVisibility": "toggle",
@@ -99,11 +102,24 @@
     "[Moonlight II Italic]": {
       "activityBar.activeBorder": "#f9f9f9",
       "activityBarBadge.background": "#f9f9f9",
-      "activityBarBadge.foreground": "#42072c",
+      "activityBarBadge.foreground": "#030307",
       "editorLineNumber.activeForeground": "#d9d9d9",
+      "activityBar.inactiveForeground": "#bebebe",
+      "sideBar.background": "#0b011c",
+      "sideBarSectionHeader.background": "#0b011c",
+      "terminal.background": "#0b011c",
+      "panel.background": "#0b011c",
+      "tab.activeBackground": "#182030",
+      "tab.inactiveBackground": "#0b011c",
+      // "editor.background": "#11121f",
+      // "editor.background": "#100424",
+      "editor.background": "#100126",
+      "editorLineNumber.foreground": "#9d9d9f",
+      "editorGroupHeader.tabsBackground": "#0b011c"
     },
   },
-  "workbench.colorTheme": "Moonlight II Italic",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Moonlight II Italic"
 }
